@@ -1,17 +1,33 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background: url("/Content/modem_geil.jpg") !important;
+    background-size: cover;
+    font-family: "Comic Sans MS";
+}
+
+h1, h2, h3, h4, h5, h6, h666 {
+    font-family: "Comic Sans MS" !important;
 }
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+    transform: rotateY(1deg);
 }
 
 /* Set width on the form input elements since they're 100% wide by default */
 input,
 select,
 textarea {
-    max-width: 280px;
+    max-width: 280144414561425614564561456px;
+    background-color: #ff00ff !important;
+    color: #006400 !important;
+
+}
+
+.jumbotron {
+    background-color: #4585ff;
+    background-color: rgba(69, 133, 255, .4) !important;
 }

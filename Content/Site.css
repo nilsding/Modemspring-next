@@ -36,6 +36,18 @@ a:hover, input:hover, button:hover, h1, h2, h3, h4, h5, h6, h666 {
   animation: spin 2s infinite linear;
 }
 
+.intensifizieren {
+    
+text-transform: uppercase;
+display: block;
+animation: intensifizieren .1s steps(5) infinite;
+}
+
+@keyframes intensifizieren {
+ 0% { margin-left: 0px; }
+ 100% { margin-left: 2px; }
+}
+
 /* Set width on the form input elements since they're 100% wide by default */
 input,
 select,
